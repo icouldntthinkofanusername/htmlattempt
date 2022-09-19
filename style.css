@@ -1,0 +1,47 @@
+.h1{
+    background-color: rgba(100, 100, 100, 0.7);
+    border:blueviolet inset;
+    font-family: 'Bungee Spice', cursive;
+    font-size:60px;
+    text-shadow:3px 3px black;
+}
+body
+{
+    background-image: url(./assets/spike.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.shape{
+    transform:scale(1);
+    transition:transform 0.2s;
+}
+.shape:hover{
+    transform:scale(1.1);
+}
+#shapes{
+    display:flex;
+    flex-direction: column;
+}
+#y{
+    display:flex;
+    flex-direction: row;
+}
+#options{
+    display:flex;
+    flex-direction: column;
+}
+#textbutton{
+    display:flex;
+    flex-direction: row;
+}
+.button1{
+    margin-bottom:0.3cm;
+    margin-left:0.1cm;
+    width:90px;
+    transform:scale(1);
+    transition:transform 0.2s;
+}
+.button1:hover{
+    transform:scale(1.1);
+}
