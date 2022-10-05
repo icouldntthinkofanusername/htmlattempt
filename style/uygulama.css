@@ -1,0 +1,37 @@
+body{
+    background:linear-gradient(180deg, #ff3300 -3%, gray 100%);
+}
+#texty{
+  font-size: 24px;
+  background: -webkit-linear-gradient(180deg,rgb(76, 0, 255),rgb(20, 243, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ilkeler{
+  margin-left:30px;
+  margin-right: 20px;
+  color:yellow;
+  transform:scale(1);
+  transition:all .3s ease-in-out;
+}
+.ilkeler:hover{
+  transform:scale(1.04);
+  filter:hue-rotate(360deg);
+}
+.kisayol{
+  font-size:20px;
+  color:cyan;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.ilkemenu{
+  text-decoration: none;
+  font-size:30px;
+  color:lime;
+}
+.baslik{
+  font-size:30px;
+  background: -webkit-linear-gradient(90deg,turquoise,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
